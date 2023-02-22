@@ -1,0 +1,130 @@
+
+/*estilo de pagina principal*/
+
+.excerpt{
+/* Sets the border */
+    border: 2px dashed #2196F3;
+
+    /* Adds an inner padding */
+    padding: 25px;
+
+    /* Sets outer margins =   */
+    margin: 100px;
+    border-radius: 10%;
+}
+
+
+
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.post-text {
+
+    text-indent: 100px;
+}
+
+.title{
+font-weight: 900;
+color:rgb(17, 9, 0);
+text-shadow: 5px 5px 5px #b16309; /* ESTE EFECTO LO TIENE EL TITULO DE LA PAGINA PPAL INDEX*/
+text-align:center;
+}
+
+
+.text {
+    color:rgb(5, 148, 105);
+    font-style: oblique;
+    font-size: 18px;
+    padding-left: 50px;
+    
+}
+
+.error {
+    color:rgb(248, 8, 8);
+}
+
+.warning {
+    color:rgba(236, 132, 34, 0.979);
+}
+.success{
+color: blue;
+
+}
+
+.link-operarios{
+text-decoration:none;
+
+}
+
+.departamentos{
+   
+}
+
+.departamentos > li{
+
+border: 2px dashed solid;
+/* Adds an inner padding */
+    padding: 15px;
+
+    /* Sets outer margins */
+    margin: 50px;
+
+}
+.sud-departamento{
+    padding: 20px;
+}
+
+.departamentos > li > a {
+    color:rgb(182, 67, 67);
+    border: thick double #32a1ce;
+    text-decoration: none; 
+}
+
+.departamentos .link-jefes{
+    color: teal;
+    
+}
+.departamentos .link-jefes:hover {
+    color: tomato;
+}
+
+.departamentos .link-jefes:active{
+    color:rgb(8, 8, 8);
+}
+
+
+/*ESTILO DE PAGINA TecnicoMantenimiento*/
+table{
+    border-collapse: collapse;
+}
+
+table th,
+table td{
+padding: 10px;
+border: 1px solid #2a2a2a;
+}
+
+.title-h1{
+        color: rgb(182, 67, 67);
+        border: thick double #32a1ce;
+        text-decoration: none;
+        text-align: center;
+}
+
+/*ESTILO PAGINA SUPERVISOR*/
+
+pre {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    color: #2a2a2a;
+    font-size: 16px;
+}
+
+pre::first-letter {
+    font-family: 'Tahoma', serif;
+    font-size: 32px;
+    color: #f44336;
+} /*prueba de curso... */
+
