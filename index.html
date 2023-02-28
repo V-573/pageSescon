@@ -3,87 +3,116 @@
   <head>
     <meta charset="UTF-8" />
     <title>Mod3 PUESTOS DE TRABAJO</title>
-    <link rel="stylesheet" href="css\styles.css" />
-    
+    <link rel="stylesheet" href="css\style2.css" />
   </head>
   <body>
-   <div>
-      <img src="imagenes\logo sescon.jpg" alt="logo sescon" height=100px>
-    </div>
-    <div>
-     <h1 class="title">TIPOS DE PUESTOS DE TRABAJO SESCON 2023</h1>
-      <p class="text">
-      EN LA EMPRESA SE DEBE IMPLEMENTAR LOS SIGUIENTES DEPARTAMENTOS O AREAS DE TRABAJO, CON LOS RESPECTIVOS INTEGRANTES DE AREA:
+    <article class="post">
+      <div class="post-thumb"></div>
+
+      <h1 class="title">TIPOS DE PUESTOS DE TRABAJO SESCON 2023</h1>
+      <p class="post-text">
+        EN LA EMPRESA SE DEBE IMPLEMENTAR LOS SIGUIENTES DEPARTAMENTOS O AREAS
+        DE TRABAJO, CON LOS RESPECTIVOS INTEGRANTES DE AREA:
       </p>
-      </div>
-      <div class="excerpt">
-                  <p> <!--se utiliza parrafo para poder generar un  espacio  entre cada departamento-->
-                  <ul class="departamentos">
-                      <li>
-                        <a class="link-jefes" href="Administracion\Administracion.html" target="_blank"
-                          >Administracion</a
-                        > <!--Se usa la class link jefes para poder darle estilo a los departamentos principales (administracion, gerente ventas, gerente tecnico) -->
 
-                        <ul class="sud-departamento"> <!--Se da class sub-departamento para darle estilo a las areas dependientes de cada departamento-->
-                          <li>Recepcionista</li>
-                          <li>Compras</li>
-                          <li>Almacen</li>
-                          <li>Mensajero</li>
-                          <li>Contabilidad</li>
-                        </ul>
-                      </li>
-                  </p>
-
-                  <p>
-                      <li>
-                    <a class="link-jefes" href="GerenteVentas\GerenteVentas.html" target="_blank"
-                      >Gerente de ventas</a
-                    >
-                    <ul class="sud-departamento">
-                      <li>Asesor comercial</li>
-                      <li>Mercadeo y redes sociales</li>
-                    </ul>
-                  </li>
-            </p>
-
-            <p>
-                  <li>
-                    <a class="link-jefes" href="DirectorTecnico\DirectorTecnico.html" target="_blank"
-                      >Director tecnico</a
-                    >
-                    <ul class="sud-departamento">
-                      <li>
-                        <a
-                          class="link-operarios"
-                          href="DirectorTecnico\Supervisor.html"
-                          target="_blank"
-                          >Supervisor de obras</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          class="link-operarios"
-                          href="DirectorTecnico\TecnicoInstalador.html"
-                          target="_blank"
-                          >Tecnico instalador</a
-                        >
-                      </li>
-                      <li><a class="link-operarios" href="DirectorTecnico\TecnicoMantenimiento.html" target="_blank" >Tecnico de soporte o mantenimiento</a></li>
-                    </ul>
-                  </li>
-            </p>      
-                </ul>
+      <div class="logo">
+        <div>
+          <img
+            src="imagenes\logo sescon.jpg"
+            alt="logo sescon"
+            height="100px"
+          />
         </div>
-<div>
-<article class="excerpt"> <!--ejemplo del curso -->
-  <h2>OBJETIVO DE TENER PUESTOS DE TRABAJO CLAROS Y DEFINIDOS</h2>
-  <p class="post-text"> Se requiere implementar un plan de trabajo con el fin de tener una empresa sistematizada y clara en sus funciones de trabajo y de producto o servicio ofrecido al cliente.
-    tener claros los roles que cada trabajador va a desempeñar es importante para dar un orden inicial, hacer que se cumplan los roles dara excelencia al trabajo que se va a ofrecer
-  </p><!-- aca estoy practicando la propiedad text-indent la cual le doy estilo en css por medio de esta clase= post-text-->
-</article>
 
+        <div class="logo2">
+          <ul class="departamentos" style="list-style: none">
+            <!--ACA QUITE EL ICONO DE BOLITA DE ADMINISTRACION, GERENTE DE VENTAS, DIRECTOR TECNICO-->
+            <li>
+              <a
+                class="link-jefes"
+                href="Administracion\Administracion.html"
+                target="_blank"
+                >Administracion</a
+              >
+              <!--Se usa la class link jefes para poder darle estilo a los departamentos principales (administracion, gerente ventas, gerente tecnico) -->
 
+              <ul class="sud-departamento">
+                <!--Se da class sub-departamento para darle estilo a las areas dependientes de cada departamento-->
+                <li>Recepcionista</li>
+                <li>Compras</li>
+                <li>Almacen</li>
+                <li>Mensajero</li>
+                <li>Contabilidad</li>
+              </ul>
+            </li>
 
-</div>
+            <li>
+              <a
+                class="link-jefes"
+                href="GerenteVentas\GerenteVentas.html"
+                target="_blank"
+                class="link"
+                >Gerente de ventas</a
+              >
+              <ul class="sud-departamento">
+                <li>Asesor comercial</li>
+                <li>Mercadeo y redes sociales</li>
+              </ul>
+            </li>
+
+            <li>
+              <a
+                class="link-jefes"
+                href="DirectorTecnico\DirectorTecnico.html"
+                target="_blank"
+                class="link"
+                >Director tecnico</a
+              >
+              <ul class="sud-departamento">
+                <li>
+                  <a
+                    class="link-operarios"
+                    href="DirectorTecnico\Supervisor.html"
+                    target="_blank"
+                    >Supervisor de obras</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="link-operarios"
+                    href="DirectorTecnico\TecnicoInstalador.html"
+                    target="_blank"
+                    >Tecnico instalador</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="link-operarios"
+                    href="DirectorTecnico\TecnicoMantenimiento.html"
+                    target="_blank"
+                    >Tecnico de soporte o mantenimiento</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <article class="article1">
+        <!--ejemplo del curso -->
+        <h2 style="text-align: center">
+          OBJETIVO DE TENER PUESTOS DE TRABAJO CLAROS Y DEFINIDOS
+        </h2>
+        <p class="post-text">
+          Se requiere implementar un plan de trabajo con el fin de tener una
+          empresa sistematizada y clara en sus funciones de trabajo y de
+          producto o servicio ofrecido al cliente. tener claros los roles que
+          cada trabajador va a desempeñar es importante para dar un orden
+          inicial, hacer que se cumplan los roles dara excelencia al trabajo que
+          se va a ofrecer
+        </p>
+        <!-- aca estoy practicando la propiedad text-indent la cual le doy estilo en css por medio de esta clase= post-text-->
+      </article>
+    </article>
   </body>
 </html>

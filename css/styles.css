@@ -1,20 +1,12 @@
+.post {
+    /* Setting the margin between the border and the element's content */
+    padding: 20px;
 
-/*estilo de pagina principal*/
+    max-width:auto;
+    background-color: #fff;
+    border: 2px dashed #2a2a2a;
 
-.excerpt{
-/* Sets the border */
-    border: 2px dashed #2196F3;
-
-    /* Adds an inner padding */
-    padding: 25px;
-
-    /* Sets outer margins =   */
-    margin: 100px;
-    border-radius: 10%;
 }
-
-
-
 
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -26,21 +18,6 @@ body{
     text-indent: 100px;
 }
 
-.title{
-font-weight: 900;
-color:rgb(17, 9, 0);
-text-shadow: 5px 5px 5px #b16309; /* ESTE EFECTO LO TIENE EL TITULO DE LA PAGINA PPAL INDEX*/
-text-align:center;
-}
-
-
-.text {
-    color:rgb(5, 148, 105);
-    font-style: oblique;
-    font-size: 18px;
-    padding-left: 50px;
-    
-}
 
 .error {
     color:rgb(248, 8, 8);
@@ -53,48 +30,6 @@ text-align:center;
 color: blue;
 
 }
-
-.link-operarios{
-text-decoration:none;
-
-}
-
-.departamentos{
-   
-}
-
-.departamentos > li{
-
-border: 2px dashed solid;
-/* Adds an inner padding */
-    padding: 15px;
-
-    /* Sets outer margins */
-    margin: 50px;
-
-}
-.sud-departamento{
-    padding: 20px;
-}
-
-.departamentos > li > a {
-    color:rgb(182, 67, 67);
-    border: thick double #32a1ce;
-    text-decoration: none; 
-}
-
-.departamentos .link-jefes{
-    color: teal;
-    
-}
-.departamentos .link-jefes:hover {
-    color: tomato;
-}
-
-.departamentos .link-jefes:active{
-    color:rgb(8, 8, 8);
-}
-
 
 /*ESTILO DE PAGINA TecnicoMantenimiento*/
 table{
